@@ -1,0 +1,7 @@
+---
+- name: Example from an Ansible Playbook
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: ping tests
+      win_ping:
