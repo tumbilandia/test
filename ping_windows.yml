@@ -1,6 +1,6 @@
 ---
 - name: Example from an Ansible Playbook
-  hosts: all
+  hosts: db
   gather_facts: false
   tasks:
     - name: ping tests
