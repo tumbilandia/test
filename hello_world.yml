@@ -1,7 +1,6 @@
 ---
 - name: Example from an Ansible Playbook
-  hosts: db
   gather_facts: false
   tasks:
-    - name: ping tests
-      win_ping:
+    - name: A module that says hello in many languages
+      demo_hello:
