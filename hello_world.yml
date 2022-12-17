@@ -1,6 +1,6 @@
 ---
-- name: Example from an Ansible Playbook
+- name: "Example from an Ansible Playbook"
   gather_facts: false
   tasks:
-    - name: A module that says hello in many languages
-      demo_hello:
+    - name: "A module that says hello in many languages"
+      therapac.hello_world.demo_hello:
