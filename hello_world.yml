@@ -1,3 +1,3 @@
+---
 - name: A module that says hello in many languages
-  therapac.hello_world:
-    demo_hello:
+  therapac.hello_world.demo_hello:
