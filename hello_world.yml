@@ -1,4 +1,2 @@
----
-- name: "A module that says hello in many languages"
+- name: A module that says hello in many languages
   hello_world:
-    demo_hello:
