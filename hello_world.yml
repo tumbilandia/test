@@ -1,3 +1,4 @@
 ---
 - name: A module that says hello in many languages
-  therapac.hello_world.demo_hello:
+  demo_hello:
+    name: "Linus Torvalds"
