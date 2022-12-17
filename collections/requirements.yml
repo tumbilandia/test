@@ -1,2 +1,3 @@
+---
 collections:
-    - name: hello_world.motd
+- ansible.posix
