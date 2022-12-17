@@ -3,5 +3,5 @@
   gather_facts: false
   tasks:
     - name: "A module that says hello in many languages"
-      therapac.hello_world:
+      hello_world:
         demo_hello:
