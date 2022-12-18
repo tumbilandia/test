@@ -1,0 +1,7 @@
+---
+- name: A module that says hello in many languages
+  hosts: all
+  tasks:
+    - name: xx-x
+      sopra.hello_world.demo_hello:
+        name: "Roumen Alvarado"
