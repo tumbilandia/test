@@ -1,0 +1,10 @@
+-
+  name: Adding new line in /etc/reslove.conf lineinfile
+  hosts: all
+  become: yes
+  tasks:
+    -
+      name: Update entry into /tmp/textfile.txt
+      lineinfile:
+       path: /tmp/textfile.txt
+       line: 'nameserver 10.1.250.10'
